@@ -1,0 +1,269 @@
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+2019-04-03 16:37:36 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-04-03 16:37:41 INFO  SparkContext:54 - Running Spark version 2.3.2
+2019-04-03 16:37:42 INFO  SparkContext:54 - Submitted application: COM6012 Spark Intro
+2019-04-03 16:37:42 INFO  SecurityManager:54 - Changing view acls to: acp18rs
+2019-04-03 16:37:42 INFO  SecurityManager:54 - Changing modify acls to: acp18rs
+2019-04-03 16:37:42 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-04-03 16:37:42 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-04-03 16:37:42 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(acp18rs); groups with view permissions: Set(); users  with modify permissions: Set(acp18rs); groups with modify permissions: Set()
+2019-04-03 16:37:42 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 45687.
+2019-04-03 16:37:42 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-04-03 16:37:42 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-04-03 16:37:42 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-04-03 16:37:42 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-04-03 16:37:42 INFO  DiskBlockManager:54 - Created local directory at /scratch/4048849.1.rse-com6012.q/blockmgr-1cb79d70-8c31-4956-9c37-02643675ab33
+2019-04-03 16:37:42 INFO  MemoryStore:54 - MemoryStore started with capacity 10.5 GB
+2019-04-03 16:37:42 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-04-03 16:37:42 INFO  log:192 - Logging initialized @8912ms
+2019-04-03 16:37:42 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-04-03 16:37:42 INFO  Server:419 - Started @8969ms
+2019-04-03 16:37:42 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2019-04-03 16:37:42 INFO  AbstractConnector:278 - Started ServerConnector@5e7f56e0{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+2019-04-03 16:37:42 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4041.
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@58bdad0f{/jobs,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5bb7086c{/jobs/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@14671ea7{/jobs/job,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@25fb7246{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@466ceafd{/stages,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6a5256b1{/stages/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7eb62f0e{/stages/stage,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@59a40f6f{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@16a5850a{/stages/pool,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1e5213e9{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6600301e{/storage,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f2684c6{/storage/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2591dffd{/storage/rdd,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2b524dfd{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c350849{/environment,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@671ea5bd{/environment/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4cdbe094{/executors,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@755f7157{/executors/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@114c58f5{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@36d342c{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1021bb95{/static,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@26dcc406{/,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6d11f8d9{/api,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@496cc67d{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2f207b1f{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-04-03 16:37:42 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://sharc-node173.shef.ac.uk:4041
+2019-04-03 16:37:42 INFO  SparkContext:54 - Added file file:/home/acp18rs/Code/Q1_180128022.py at file:/home/acp18rs/Code/Q1_180128022.py with timestamp 1554305862930
+2019-04-03 16:37:42 INFO  Utils:54 - Copying /home/acp18rs/Code/Q1_180128022.py to /scratch/4048849.1.rse-com6012.q/spark-e35b5189-3470-4e84-9bd0-d97dede4727a/userFiles-c14afdaa-c365-4703-8b91-16bf5fc9d565/Q1_180128022.py
+2019-04-03 16:37:42 INFO  Executor:54 - Starting executor ID driver on host localhost
+2019-04-03 16:37:43 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43848.
+2019-04-03 16:37:43 INFO  NettyBlockTransferService:54 - Server created on sharc-node173.shef.ac.uk:43848
+2019-04-03 16:37:43 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-04-03 16:37:43 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, sharc-node173.shef.ac.uk, 43848, None)
+2019-04-03 16:37:43 INFO  BlockManagerMasterEndpoint:54 - Registering block manager sharc-node173.shef.ac.uk:43848 with 10.5 GB RAM, BlockManagerId(driver, sharc-node173.shef.ac.uk, 43848, None)
+2019-04-03 16:37:43 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, sharc-node173.shef.ac.uk, 43848, None)
+2019-04-03 16:37:43 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, sharc-node173.shef.ac.uk, 43848, None)
+2019-04-03 16:37:43 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2292c815{/metrics/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:43 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/acp18rs/Code/spark-warehouse/').
+2019-04-03 16:37:43 INFO  SharedState:54 - Warehouse path is 'file:/home/acp18rs/Code/spark-warehouse/'.
+2019-04-03 16:37:43 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40617aa2{/SQL,null,AVAILABLE,@Spark}
+2019-04-03 16:37:43 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@470a7f8f{/SQL/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:43 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5aa5286f{/SQL/execution,null,AVAILABLE,@Spark}
+2019-04-03 16:37:43 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@19d63f54{/SQL/execution/json,null,AVAILABLE,@Spark}
+2019-04-03 16:37:43 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@64f5780d{/static/sql,null,AVAILABLE,@Spark}
+2019-04-03 16:37:43 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+Answer for Q1.1
+2019-04-03 16:37:47 WARN  Utils:66 - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+
+
+Starting Decision Tree Classifier for 25% of dataset...
+
+
+
+
+The best parameters for Decision Tree Classifier are...
+
+
+cacheNodeIds False
+checkpointInterval 10
+featuresCol features
+impurity entropy
+labelCol label
+maxBins 31
+maxDepth 10
+maxMemoryInMB 256
+minInfoGain 0.0
+minInstancesPerNode 1
+predictionCol prediction
+probabilityCol probability
+rawPredictionCol rawPrediction
+seed 956191873026065186
+
+
+Printing the selected training parameters... 
+
+
+Best maxDepth =  10
+Best maxBins =  31
+Best impurity =  entropy
+
+
+Accuracy for DecisionTreeClassifier = 0.703272 
+
+
+Area under the curve for DecisionTreeClassifier = 0.669532 
+
+
+Starting Decision Tree Regressor 25% of dataset...
+
+
+
+
+The best parameters for Decision Tree Regressor are...
+
+
+cacheNodeIds False
+checkpointInterval 10
+featuresCol features
+impurity variance
+labelCol label
+maxBins 35
+maxDepth 10
+maxMemoryInMB 256
+minInfoGain 0.0
+minInstancesPerNode 1
+predictionCol prediction
+seed -1407754390808368278
+
+
+Printing the selected training parameters... 
+
+
+Best maxDepth =  10
+Best maxBins =  35
+
+
+Accuracy for DecisionTreeRegressor = 0.703676 
+
+
+Area under the curve for DecisionTreeRegressor = 0.775659 
+
+
+Starting Logistic Regression 25% of dataset...
+
+
+2019-04-03 16:53:04 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-04-03 16:53:04 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+
+
+The best parameters for Logistic Regression are...
+
+
+aggregationDepth 2
+elasticNetParam 0.0
+family auto
+featuresCol features
+fitIntercept True
+labelCol label
+maxIter 15
+predictionCol prediction
+probabilityCol probability
+rawPredictionCol rawPrediction
+regParam 0.1
+standardization True
+threshold 0.5
+tol 1e-06
+
+
+Printing the selected training parameters... 
+
+
+Best maxIter =  15
+Best regParam =  0.1
+
+
+Accuracy for LogisticRegression = 0.623376 
+
+
+Area under the curve for LogisticRegression = 0.665812 
+
+
+Answer for Q1.2
+
+
+For the whole dataset, the DecisionTreeClassifier is starting...
+
+
+Fetching the best values of parameters from 25% dataset and using them...
+2019-04-03 16:54:17 WARN  MemoryStore:66 - Not enough space to cache rdd_5747_4 in memory! (computed 452.5 MB so far)
+2019-04-03 16:54:17 WARN  BlockManager:66 - Persisting block rdd_5747_4 to disk instead.
+2019-04-03 16:54:20 WARN  MemoryStore:66 - Not enough space to cache rdd_5747_9 in memory! (computed 452.5 MB so far)
+2019-04-03 16:54:20 WARN  BlockManager:66 - Persisting block rdd_5747_9 to disk instead.
+2019-04-03 16:54:20 WARN  MemoryStore:66 - Not enough space to cache rdd_5747_6 in memory! (computed 452.5 MB so far)
+2019-04-03 16:54:20 WARN  BlockManager:66 - Persisting block rdd_5747_6 to disk instead.
+2019-04-03 16:54:21 WARN  MemoryStore:66 - Not enough space to cache rdd_5747_7 in memory! (computed 452.5 MB so far)
+2019-04-03 16:54:21 WARN  BlockManager:66 - Persisting block rdd_5747_7 to disk instead.
+2019-04-03 16:54:22 WARN  MemoryStore:66 - Not enough space to cache rdd_5747_5 in memory! (computed 452.5 MB so far)
+2019-04-03 16:54:22 WARN  BlockManager:66 - Persisting block rdd_5747_5 to disk instead.
+
+
+Accuracy for DecisionTreeClassifier on the whole dataset = 0.70359 
+
+
+Area under the curve for DecisionTreeClassifier on the whole dataset = 0.681601 
+
+
+Time taken (in seconds) to train the DecisionTreeClassifier algorithm =  77.78093361854553
+
+
+For the whole dataset, the DecisionTreeRegressor is starting...
+
+
+Fetching the best values of parameters from 25% dataset and using them...
+
+
+Accuracy for DecisionTreeRegressor on the whole dataset = 0.703614 
+
+
+Area under the curve for DecisionTreeRegressor on the whole dataset = 0.776472 
+
+
+Time taken (in seconds) to train the DecisionTreeRegressor algorithm =  21.2933349609375
+
+
+For the whole dataset, the LogisticRegression is starting...
+
+
+Fetching the best values of parameters from 25% dataset and using them...
+
+
+Accuracy for LogisticRegression = 0.622316 
+
+
+Area under the curve for LogisticRegression = 0.665812 
+
+
+Time taken (in seconds) to train the LogisticRegression algorithm =  13.389160633087158
+
+
+Answer for Q1.3
+
+
+Top 3 features for DecisionTreeClassifier are... 
+
+
+_c26
+_c28
+_c27
+
+
+Top 3 features for DecisionTreeRegressor are... 
+
+
+_c26
+_c28
+_c27
+
+
+Top 3 features for LogisticRegression are... 
+
+
+_c28
+_c26
+_c4
+The code took (in seconds)  1107.498015165329
